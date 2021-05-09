@@ -60,7 +60,7 @@ function refresh_affichage(choix) {
     var coolquivabien = 'black';
     var numquivabien = 0;
     var tools_txt = '';
-    for (i = 0; i <= (alertes.length - 1); i++) {
+    for (let i = 0; i <= (alertes.length - 1); i++) {
         if (screen_W >= alertes[i]) {
             coolquivabien = alertes_couleurs[i];
             numquivabien = i;
